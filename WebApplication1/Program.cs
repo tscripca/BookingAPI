@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Data;
-using WebApplication1.Services;
+using BookingAPI.Data;
+using BookingAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

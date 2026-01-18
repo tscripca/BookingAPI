@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebApplication1.Models;
+using BookingAPI.Models;
 
-namespace WebApplication1.Data
+namespace BookingAPI.Data
 {
     public class AppDbContext: DbContext
     {

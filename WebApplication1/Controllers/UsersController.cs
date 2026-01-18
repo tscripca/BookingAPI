@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Data;
-using WebApplication1.Models;
+using BookingAPI.Data;
+using BookingAPI.Models;
 
-namespace WebApplication1.Controllers;
+namespace BookingAPI.Controllers;
 
 [ApiController]
 [Route("api/users")]

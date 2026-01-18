@@ -1,6 +1,6 @@
 ﻿using Microsoft.Identity.Client;
 
-namespace WebApplication1.Dtos
+namespace BookingAPI.Dtos
 {
     public class BookingResponseDto
     {

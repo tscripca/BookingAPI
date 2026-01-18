@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Data;
-using WebApplication1.Models;
+using BookingAPI.Data;
+using BookingAPI.Models;
 using System.Linq;
 
-namespace WebApplication1.Controllers;
+namespace BookingAPI.Controllers;
 
 [ApiController]
 [Route("api/resources")]

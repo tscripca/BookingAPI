@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Data;
-using WebApplication1.Dtos;
-using WebApplication1.Errors;
-using WebApplication1.Models;
-using WebApplication1.Services;
+using BookingAPI.Data;
+using BookingAPI.Dtos;
+using BookingAPI.Errors;
+using BookingAPI.Models;
+using BookingAPI.Services;
 
-namespace WebApplication1.Controllers;
+namespace BookingAPI.Controllers;
 
 [ApiController]
 [Route("api/bookings")]

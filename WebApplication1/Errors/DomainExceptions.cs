@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.Errors
+﻿namespace BookingAPI.Errors
 {
     public class DomainException : Exception
     {

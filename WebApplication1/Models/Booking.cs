@@ -1,7 +1,7 @@
 ﻿using Microsoft.Identity.Client;
 using System.Text.Json.Serialization;
 
-namespace WebApplication1.Models
+namespace BookingAPI.Models
 {
     public class Booking
     {

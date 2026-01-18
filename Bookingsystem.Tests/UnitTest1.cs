@@ -1,5 +1,5 @@
 using System;
-using WebApplication1;
+using BookingAPI;
 using Xunit;
 //these tests ensure that if the logic is changed later, incorrect behavior is caught immediately.
 public class BookingOverlapTests

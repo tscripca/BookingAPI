@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{8889F361-C3E9-4E44-AAE1-F4FB60AFC424}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI", "WebApplication1\BookingAPI.csproj", "{8889F361-C3E9-4E44-AAE1-F4FB60AFC424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookingsystem.Tests", "Bookingsystem.Tests\Bookingsystem.Tests.csproj", "{D88633EF-AA89-4082-A092-B1559291D5B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.Tests", "Bookingsystem.Tests\BookingAPI.Tests.csproj", "{D88633EF-AA89-4082-A092-B1559291D5B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

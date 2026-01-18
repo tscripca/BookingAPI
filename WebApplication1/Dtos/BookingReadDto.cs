@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.Dtos
+﻿namespace BookingAPI.Dtos
 {
     public class BookingReadDto
     {

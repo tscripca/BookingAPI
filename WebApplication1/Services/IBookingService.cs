@@ -1,6 +1,6 @@
-﻿using WebApplication1.Dtos;
+﻿using BookingAPI.Dtos;
 
-namespace WebApplication1.Services
+namespace BookingAPI.Services
 {
 //Why an interface?
 // -> decoupling

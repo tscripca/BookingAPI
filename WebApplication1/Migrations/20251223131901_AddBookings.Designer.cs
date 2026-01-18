@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebApplication1.Data;
+using BookingAPI.Data;
 
 #nullable disable
 
-namespace WebApplication1.Migrations
+namespace BookingAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20251223131901_AddBookings")]
