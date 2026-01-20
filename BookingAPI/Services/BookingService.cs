@@ -31,7 +31,7 @@ public class BookingService : IBookingService
         //Filters bookings for the same resource
         //Checks overlap logic
         //Asks: does any such booking exists?
-        var overlapExists = await _context.Bookings.AnyAsync(b => b.ResourceId == booking.ResourceId && BookingOverlap.DoBookingsOverlap(booking.StartTime, booking.EndTime, b.StartTime, b.EndTime));
+        var overlapExists = await _context.Bookings.AnyAsync(b => b.ResourceId == booking.ResourceId && booking.StartTime < b.EndTime && booking.EndTime > b.StartTime);
 
         if (overlapExists)
             throw new DomainException("BookingOverlap", "Resource is already booked for this time range.");
